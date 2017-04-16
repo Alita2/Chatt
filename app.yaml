@@ -3,3 +3,19 @@ env: flex
 
 runtime_config:
   document_root: web
+  
+handlers:
+- url: /index.php
+  script: /firebase/index.php
+
+- url: /config.php
+  script: /firebase/config.php
+
+- url: /run.php
+  script: /firebase/run.php
+
+- url: /firebase.php
+  script: /firebase/firebase.php
+ 
+- url: /push.php
+script: /firebase/push.php
